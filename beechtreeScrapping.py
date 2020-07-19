@@ -68,7 +68,7 @@ while(brand_count < len(brand_array)):
             }
             print(dataObject)
             # mydb.products.insert_one(dataObject)
-            print(".................................................................................................")
+            print(".................................................................................")
 
             counter+=1
     brand_count += 1
