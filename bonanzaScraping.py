@@ -61,7 +61,7 @@ def goToProductDetail(_productData,productUrl,collectionName):
     _productData['size'] = size
     print('product data ', _productData)
     mydb[collectionName].insert_one(_productData)
-    print('................................................................................................')
+    print('...........................................................................................')
 
 def processSitePageSoup(soup, brandName,gender,collectionName):
     if(soup.findAll('div',{'class':'product-item-info product-content'})):
