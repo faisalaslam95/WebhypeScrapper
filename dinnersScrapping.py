@@ -58,7 +58,7 @@ def goToProductDetail(_productData,productUrl):
     _productData['pictures'] = pictures
     _productData['price'] = price
     print('product data ', _productData)
-    print('................................................................................................')
+    print('...................................................................................')
 
 
 def openSitePage(brandData, type):
