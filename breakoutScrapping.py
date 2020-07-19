@@ -47,7 +47,7 @@ def goToProductDetail(_productData,productUrl):
     _productData['pictures'] = pictures
     print('product data ', _productData)
     # mydb.productslist.insert_one(_productData)
-    print('................................................................................................')
+    print('.....................................................................................')
 
 
 def openSitePage(menBrands, gender):
