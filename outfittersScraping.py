@@ -159,7 +159,7 @@ def getAllLinks(_url):
                             'url': _mainUrl + brand.find('a')['href'],
                             'name': brand.find('a').text.strip()
                         })
-        print('........................................................................')
+        print('..........................................................')
     print('kidsBrands__________', kidsBrands)
 
     print('menBrands = ', menBrands)
